@@ -60,6 +60,7 @@ export default function ChatCTA() {
                   src={letsTalkImg}
                   alt="Chat assistant"
                   fill
+                  sizes="240px"
                   className="object-contain object-bottom drop-shadow-[0_20px_40px_rgba(100,70,200,0.35)]"
                   priority
                 />

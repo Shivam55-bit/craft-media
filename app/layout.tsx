@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Sora } from "next/font/google";
 import { ThemeProvider } from "@/src/context/theme-provider";
+import WhatsAppFloat from "@/src/components/ui/whatsapp-float";
 import "./globals.css";
 
 const bodyFont = Manrope({
@@ -43,6 +44,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <ThemeProvider>{children}</ThemeProvider>
+        <WhatsAppFloat />
       </body>
     </html>
   );

@@ -153,7 +153,7 @@ export default function ChatWidget({ open, onClose }: { open: boolean; onClose: 
                   {/* Avatar */}
                   {msg.from === "bot" ? (
                     <span className="mb-0.5 relative flex h-7 w-7 shrink-0 overflow-hidden rounded-full bg-gradient-to-br from-[#ede9fe] to-[#ddd6fe] ring-1 ring-[#c4b5fd] shadow-sm">
-                      <Image src={girlImg} alt="" fill className="object-cover object-top scale-125 translate-y-1" />
+                      <Image src={girlImg} alt="" fill sizes="28px" className="object-cover object-top scale-125 translate-y-1" />
                     </span>
                   ) : (
                     <span className="mb-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#ffb327] to-[#ff5564] text-white text-[9px] font-bold shadow-sm">
@@ -183,7 +183,7 @@ export default function ChatWidget({ open, onClose }: { open: boolean; onClose: 
                     className="flex items-end gap-2"
                   >
                     <span className="mb-0.5 relative flex h-7 w-7 shrink-0 overflow-hidden rounded-full bg-gradient-to-br from-[#ede9fe] to-[#ddd6fe] ring-1 ring-[#c4b5fd] shadow-sm">
-                      <Image src={girlImg} alt="" fill className="object-cover object-top scale-125 translate-y-1" />
+                      <Image src={girlImg} alt="" fill sizes="28px" className="object-cover object-top scale-125 translate-y-1" />
                     </span>
                     <span className="flex items-center gap-[5px] rounded-[18px] rounded-bl-[4px] bg-white px-4 py-3 shadow-[0_2px_12px_rgba(0,0,0,0.07)] ring-1 ring-[#f0e4d8]">
                       {[0, 0.2, 0.4].map((d, i) => (
